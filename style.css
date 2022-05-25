@@ -162,10 +162,6 @@ aside {
     
 }
 
-.aboutVideo{
-    display: inline-block;
-}
-
 .aboutTextContainer {
     float: left;
     color: rgb(255, 255, 255);
@@ -184,14 +180,14 @@ aside {
     box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
     margin: 0 20px;
     background-color: black;
-    display: inline-block;
+    /* display: inline-block; */
   }
 
 .aboutVideo{
     display: inline-block;
     float: right;
-    padding-right: 15%;
-    margin: 0 20px;
+    padding-right: 10%;
+    /* margin: 0 20px; */
 }
   
   .ytvid{
@@ -203,7 +199,7 @@ aside {
     border: 5px solid white;
     border-radius: 5px;
     box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
-    display: inline-block;
+    /* display: inline-block; */
   }
 
   /* .aboutBandPhoto {
