@@ -13,7 +13,6 @@
       
   }
 
-  
 
 /* NAVBAR */
 
@@ -74,7 +73,7 @@
 .navBtns{
     /* text-align: center; */
     display: inline-block;
-    /* padding: 0 20px; */
+    padding: 0 30px; 
 }
 
 .btns{
@@ -98,9 +97,12 @@
     text-decoration: none;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    padding: 20px 0px;
+    
 
 }
+
 
 .socials{
     float: right;
@@ -140,6 +142,7 @@ h2{
     padding: 10px;
 
 }
+
 
 p{
     margin-top: 10px;
@@ -182,7 +185,7 @@ aside {
     border-radius: 5px;
     box-shadow: 0 0px 14px 0 rgb(255, 255, 255);
     margin: 0 20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0,.8);
     /* display: inline-block; */
   }
 
@@ -205,16 +208,7 @@ aside {
     /* display: inline-block; */
   }
 
-  /* .aboutBandPhoto {
-    width:33%;
-    height:400px;
-    background-image: url(images/bandphoto.jpg);
-    background-size: cover;   
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 5%;
-    display: inline-block;
-} */
+ 
 
 /* BOOKING */
 
@@ -251,34 +245,7 @@ aside {
     
   }
 
-/* .bookingTextBox {
-    text-align: center;
-    width: 600px;
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 25px;
-    border: 5px solid white;
-    border-radius: 5px;
-    box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
-    margin: 0 20px;
-    background-color: black;
-    display: inline-block;
-    text-align: center;
-  } */
 
-/* .booking {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	 background: #eee; 
-}  */
-
-/* .bookingHeading{
-    align-content: center;
-    
-    
-} */
 
 form {
     width: 300px;
@@ -286,7 +253,7 @@ form {
     margin: 20px;
 	border-radius: 5px;
 	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
-	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0,.6  );
     border: 2px solid white;
     display: inline-block;
     
@@ -306,8 +273,9 @@ label {
 	align-items: center;
     padding-left: 20px;
 	grid-gap: 16px;
-	cursor: pointer;
+
 }
+
 label .checkbox {
 	width: 20px;
 	height: 20px;
@@ -403,9 +371,7 @@ label .checkbox .check::after {
     display: inline-block;
 }
 
-/* #seatingHead{
-    padding-bottom: 87px;
-}*/
+
 
 #quantity{
     width: 100px;
@@ -439,7 +405,6 @@ label .checkbox .check::after {
 
 
   .paymentBx{
-    /* float: right; */
     margin: auto;
     display: inline-block;
     
@@ -452,7 +417,7 @@ label .checkbox .check::after {
     margin: 20px;
 	border-radius: 5px;
 	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
-	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0,.8);
     border: 2px solid white;
     display: inline-block;
     
@@ -464,7 +429,7 @@ label {
 	align-items: center;
     padding-left: 20px;
 	grid-gap: 16px;
-	cursor: pointer;
+	
 }
 
 
@@ -490,18 +455,6 @@ label {
 }
 
 
-
- /* .formContainer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-areas:'loginSection' ;
-    grid-gap: 20px;
-    height: 300px; 
-
- }   */
 
 .columnLeft{
     padding:1.5rem ;
@@ -532,7 +485,6 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     text-transform: uppercase;
     display: inline-block;
     
-
 }
 
 .purchase{
@@ -542,6 +494,7 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 .back{
     float: left;
 }
+
 
 /* VENUE */
 .venueBg{
@@ -571,12 +524,11 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     margin: 20px;
     border: 5px solid white;
 	border-radius: 5px;
-	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0,.6);
     border: 2px solid white;
     display: inline-block;
     line-height: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    /* box-shadow: 0 0px 14px 0 rgb(255, 255, 255); */
   } 
 
   .contactTextBox p{
@@ -617,12 +569,11 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     margin: 50px 20px;
     border: 5px solid white;
 	border-radius: 5px;
-	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0,.6);
     border: 2px solid white;
     display: inline-block;
     line-height: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    /* box-shadow: 0 0px 14px 0 rgb(255, 255, 255); */
   } 
 
   .contactTextBox p{
@@ -635,8 +586,7 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 }  
 
 
-
-
+ 
 img:hover{
     filter: grayscale();
     transition: 3s;
