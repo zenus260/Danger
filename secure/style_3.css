@@ -94,7 +94,7 @@
 
 }
 
-.btns a{
+.btns a {
     text-decoration: none;
     color: black;
     font-family: 'Josefin Sans', sans-serif;
@@ -108,8 +108,6 @@
     padding: 0 10px;
     font-size: 22px;
 }
-
-
 
 /* CONTENT */
 
@@ -143,7 +141,6 @@ h2{
 
 p{
     margin-top: 10px;
-    margin-bottom: 10px;
 
 }
 
@@ -180,7 +177,7 @@ aside {
     line-height: 25px;
     border: 5px solid white;
     border-radius: 5px;
-    box-shadow: 0 0px 14px 0 rgb(255, 255, 255);
+    box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
     margin: 0 20px;
     background-color: black;
     /* display: inline-block; */
@@ -201,7 +198,7 @@ aside {
     height: 345px;
     border: 5px solid white;
     border-radius: 5px;
-    box-shadow: 0 0px 14px 0 rgb(255, 255, 255);
+    box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
     /* display: inline-block; */
   }
 
@@ -227,68 +224,30 @@ aside {
 
 .booking{
     padding-top: 15%;
-    text-align: center;
     
 }
 
-
-.forms{
-    padding-top: 30px;
-}
-
-.bookingHeadingMain{
-    text-align: center;
-}
-
-.bookingTextContainer {
-    text-align: center;
-    float: left;
-    width: 25%;
-    height: max-content;
-    color: rgb(255, 255, 255);
-    padding-left: 10%;
-    display: inline-block;
-    
-  }
-
-/* .bookingTextBox {
-    text-align: center;
-    width: 600px;
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    line-height: 25px;
-    border: 5px solid white;
-    border-radius: 5px;
-    box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
-    margin: 0 20px;
-    background-color: black;
-    display: inline-block;
-    text-align: center;
-  } */
-
-/* .booking {
+.booking {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	 background: #eee; 
-}  */
+	/* background: #eee; */
+}
 
-/* .bookingHeading{
+.bookingHeading{
     align-content: center;
     
     
-} */
+}
 
 form {
-    width: 300px;
 	padding: 24px;
     margin: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
 	background: rgb(0, 0, 0);
     border: 2px solid white;
-    display: inline-block;
     
 }
 .form-group {
@@ -382,216 +341,11 @@ label .checkbox .check::after {
 	transition-delay: .4s;
 }
 
-.submitBx{
-    float: right;
-    margin: auto;
-    width: 26%;
-    display: inline-block;
-    
-   
-}
-
-.submitBtn{
-    font-family: 'Josefin Sans', sans-serif;
-    width: 300px;
-	padding: 24px;
-    margin: 20px;
-	border-radius: 5px;
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
-	background: rgb(0, 0, 0);
-    border: 2px solid white;
-    display: inline-block;
-}
-
-/* #seatingHead{
-    padding-bottom: 87px;
-}*/
-
-#quantity{
-    width: 100px;
-    
-} 
-
-/* PAYMENT */
-
- .paymentBg{
-    background: url(images/payment.jpg) no-repeat;
-    -webkit-background-size: cover;
-      background-size: cover;
-      height: 100%;
-  } 
-
-.payment{
-    padding-top: 15%;
-    text-align: center;
-    
-}
-
-
-.forms{
-    padding-top: 30px;
-}
-
-.bookingHeadingMain{
-    text-align: center;
-}
-
-
-
-  .paymentBx{
-    /* float: right; */
-    margin: auto;
-    display: inline-block;
-    
-   
-}
-
-.paymentTextContainer {
-    width: auto;
-	padding: 24px;
-    margin: 20px;
-	border-radius: 5px;
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
-	background: rgb(0, 0, 0);
-    border: 2px solid white;
-    display: inline-block;
-    
-}
-
-label {
-    font-family: 'Josefin Sans', sans-serif;
-	display: flex;
-	align-items: center;
-    padding-left: 20px;
-	grid-gap: 16px;
-	cursor: pointer;
-}
-
-
-.submitBx{
-    float: right;
-    margin: auto;
-    width: 26%;
-    display: inline-block;
-    
-   
-}
-
-.submitBtn{
-    font-family: 'Josefin Sans', sans-serif;
-    width: 300px;
-	padding: 24px;
-    margin: 20px;
-	border-radius: 5px;
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
-	background: rgb(0, 0, 0);
-    border: 2px solid white;
-    display: inline-block;
-}
-
-
-
- /* .formContainer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-areas:'loginSection' ;
-    grid-gap: 20px;
-    height: 300px; 
-
- }   */
-
-.columnLeft{
-    padding:1.5rem ;
-    width: 450px;
-    display: inline-block;
-}
-
-.columnRight{
-    padding-bottom: 50px;
-    padding:1.5rem ;
-    width: 450px;
-    display: inline-block;
-}
-
-
-
-.formContent{
-    margin-bottom: 15px;
-}
-
-input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
-    padding: 12px;
-    width: 90%;
-}
-
-.paymentBtn{
-    padding: 10px 20px;
-    text-transform: uppercase;
-    display: inline-block;
-    
-
-}
-
-.purchase{
-    float: right;
-}
-
-.back{
-    float: left;
-}
-
-/* VENUE */
-.venueBg{
-    background: url(images/red.png) no-repeat;
-    -webkit-background-size: cover;
-      background-size: cover;
-      height: 100%;
-  }
-
-.venue{
-    padding-top: 15%;
-    text-align: center; 
-}
-
-.venueHeadingMain{
-    text-align: center;
-}
-
-.venueHeadingSecondary{
-    padding: 30px;
-}
-
-
- .venueTextContainer {
-    width: 300px;
-	padding: 24px;
-    margin: 20px;
-    border: 5px solid white;
-	border-radius: 5px;
-	background: rgb(0, 0, 0);
-    border: 2px solid white;
-    display: inline-block;
-    line-height: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-    /* box-shadow: 0 0px 14px 0 rgb(255, 255, 255); */
-  } 
-
-  .contactTextBox p{
-      padding-bottom: 10px;
-  }
-
-  .contactTextBox a{
-    color: white;
-    
-}  
 
 
 /* CONTACT */
 .contentBg{
-    background: url(images/red.png) no-repeat;
+    background: url(images/about.png) no-repeat;
     -webkit-background-size: cover;
       background-size: cover;
       height: 100%;
@@ -599,43 +353,38 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 
 .contact{
     padding-top: 15%;
-    text-align: center; 
+    /* text-align: center; */
 }
 
 .contactHeadingMain{
     text-align: center;
 }
 
-.contactHeadingSecondary{
-    padding: 30px;
-}
-
-
- .contactTextContainer {
-    width: 300px;
-	padding: 24px;
-    margin: 50px 20px;
-    border: 5px solid white;
-	border-radius: 5px;
-	background: rgb(0, 0, 0);
-    border: 2px solid white;
+.contactTextContainer {
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: max-content;
+    color: rgb(255, 255, 255);
+    padding-left: 10%;
     display: inline-block;
-    line-height: 25px;
-    font-family: 'Josefin Sans', sans-serif;
-    /* box-shadow: 0 0px 14px 0 rgb(255, 255, 255); */
-  } 
-
-  .contactTextBox p{
-      padding-bottom: 10px;
+    
   }
 
-  .contactTextBox a{
-    color: white;
-    
-}  
-
-
-
+.contactTextBox {
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 25px;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0 7px 14px 0 rgb(255, 255, 255);
+    margin: 0 20px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+  }
 
 img:hover{
     filter: grayscale();
