@@ -455,7 +455,6 @@ label {
 }
 
 
-
 .columnLeft{
     padding:1.5rem ;
     width: 450px;
@@ -498,7 +497,7 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 
 /* VENUE */
 .venueBg{
-    background: url(images/red.png) no-repeat;
+    background: url(images/fog.jpg) no-repeat;
     -webkit-background-size: cover;
       background-size: cover;
       height: 100%;
@@ -517,9 +516,16 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     padding: 30px;
 }
 
+.venueBtns{
+    display: inline-block;
+}
+
+.venueBtns button{
+   padding-left: ;
+}
+
 
  .venueTextContainer {
-    width: 300px;
 	padding: 24px;
     margin: 20px;
     border: 5px solid white;
@@ -531,18 +537,19 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     font-family: 'Josefin Sans', sans-serif;
   } 
 
-  .contactTextBox p{
-      padding-bottom: 10px;
+  .map{
+      width: 70%;
   }
 
-  .contactTextBox a{
-    color: white;
-    
-}  
+  .venueDirectLinks{
+      padding: 0px 30px;
+  }
+
+
 
 
 /* CONTACT */
-.contentBg{
+.contactBg{
     background: url(images/red.png) no-repeat;
     -webkit-background-size: cover;
       background-size: cover;
@@ -587,10 +594,3 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 
 
  
-img:hover{
-    filter: grayscale();
-    transition: 3s;
-    cursor: pointer;
-
-}
-
