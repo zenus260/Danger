@@ -76,6 +76,15 @@
     padding: 0 30px; 
 }
 
+.socials{
+    float: right;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 22px;
+}
+
+/* GENERAL CONTENT*/
+
 .btns{
     margin-top: 10px;
     background-color: white;
@@ -103,17 +112,19 @@
 
 }
 
-
-.socials{
-    float: right;
-    display: inline-block;
-    padding: 0 10px;
-    font-size: 22px;
+.pagePadding{
+    padding-top: 15%;
+    text-align: center; 
 }
 
+.HeadingMain{
+    text-align: center;
+}
 
+.HeadingSecondary{
+    padding: 30px;
+}
 
-/* CONTENT */
 
 body{
     background-color: rgb(0,0, 0, 0);
@@ -125,7 +136,17 @@ body{
 
 .content {
     margin-top: 55%;
-    
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+.containerPadding{
+    padding-top: 30px;
 }
 
 h1{
@@ -147,7 +168,13 @@ h2{
 p{
     margin-top: 10px;
     margin-bottom: 10px;
+    
+    /* font-size: 15px; */
+}
 
+.landingText{
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
 }
 
 aside {
@@ -163,10 +190,6 @@ aside {
       height: 100%;
   }
 
-.about{
-    padding-top: 15%;
-    
-}
 
 .aboutTextContainer {
     float: left;
@@ -187,7 +210,10 @@ aside {
     margin: 0 20px;
     background-color: rgb(0, 0, 0,.8);
     /* display: inline-block; */
+    text-align: left;
+    
   }
+
 
 .aboutVideo{
     display: inline-block;
@@ -196,7 +222,7 @@ aside {
     /* margin: 0 20px; */
 }
   
-  .ytvid{
+.ytvid{
     float: right;
     /* display: inline-block; */
     margin: 0 20px;
@@ -212,27 +238,13 @@ aside {
 
 /* BOOKING */
 
- .bookingBg{
+.bookingBg{
     background: url(images/book.jpg) no-repeat;
     -webkit-background-size: cover;
       background-size: cover;
       height: 100%;
   } 
 
-.booking{
-    padding-top: 15%;
-    text-align: center;
-    
-}
-
-
-.forms{
-    padding-top: 30px;
-}
-
-.bookingHeadingMain{
-    text-align: center;
-}
 
 .bookingTextContainer {
     text-align: center;
@@ -242,10 +254,7 @@ aside {
     color: rgb(255, 255, 255);
     padding-left: 10%;
     display: inline-block;
-    
   }
-
-
 
 form {
     width: 300px;
@@ -372,39 +381,19 @@ label .checkbox .check::after {
 }
 
 
-
-#quantity{
-    width: 100px;
-    
-} 
-
 /* PAYMENT */
 
- .paymentBg{
+.paymentBg{
     background: url(images/payment.jpg) no-repeat;
     -webkit-background-size: cover;
       background-size: cover;
       height: 100%;
   } 
 
-.payment{
-    padding-top: 15%;
-    text-align: center;
-    
-}
-
-
-.forms{
-    padding-top: 30px;
-}
-
-.bookingHeadingMain{
-    text-align: center;
-}
 
 
 
-  .paymentBx{
+.paymentBx{
     margin: auto;
     display: inline-block;
     
@@ -495,6 +484,21 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
 }
 
 
+/* CONFIRMED */
+
+.confirmedBg{
+    background: url(images/jngle.jpg) no-repeat;
+    -webkit-background-size: cover;
+      background-size: cover;
+      height: 100%;
+  } 
+
+
+.ticketDownload{
+    padding-left: 60px;
+}
+
+
 /* VENUE */
 .venueBg{
     background: url(images/fog.jpg) no-repeat;
@@ -503,29 +507,14 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
       height: 100%;
   }
 
-.venue{
-    padding-top: 15%;
-    text-align: center; 
-}
-
-.venueHeadingMain{
-    text-align: center;
-}
-
-.venueHeadingSecondary{
-    padding: 30px;
-}
 
 .venueBtns{
     display: inline-block;
 }
 
-.venueBtns button{
-   padding-left: ;
-}
 
 
- .venueTextContainer {
+.venueTextContainer {
 	padding: 24px;
     margin: 20px;
     border: 5px solid white;
@@ -537,15 +526,13 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     font-family: 'Josefin Sans', sans-serif;
   } 
 
-  .map{
+.map{
       width: 70%;
   }
 
-  .venueDirectLinks{
+.venueDirectLinks{
       padding: 0px 30px;
   }
-
-
 
 
 /* CONTACT */
@@ -556,21 +543,7 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
       height: 100%;
   }
 
-.contact{
-    padding-top: 15%;
-    text-align: center; 
-}
-
-.contactHeadingMain{
-    text-align: center;
-}
-
-.contactHeadingSecondary{
-    padding: 30px;
-}
-
-
- .contactTextContainer {
+.contactTextContainer {
     width: 300px;
 	padding: 24px;
     margin: 50px 20px;
@@ -583,14 +556,11 @@ input[type='email'],input[type='tel'],input[type='name'],input[type='surname']{
     font-family: 'Josefin Sans', sans-serif;
   } 
 
-  .contactTextBox p{
+.contactTextBox p{
       padding-bottom: 10px;
   }
 
-  .contactTextBox a{
+.contactTextBox a{
     color: white;
     
 }  
-
-
- 
